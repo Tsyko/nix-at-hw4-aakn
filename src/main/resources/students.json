@@ -1,0 +1,39 @@
+{
+  "students":[
+    {
+      "name":"Andriy",
+      "course":"Machine Learning",
+      "age":20
+    },
+    {
+      "name":"Alona",
+      "course":"Machine Learning",
+      "age":19
+    },
+    {
+      "name":"Khrystyne",
+      "course":"Machine Learning",
+      "age":18
+    },
+    {
+      "name":"Andriy",
+      "course":"Machine Learning",
+      "age":30
+    },
+    {
+      "name":"Khrystyne",
+      "course":"Algorithms, Part I",
+      "age":19
+    },
+    {
+      "name":"Andriy",
+      "course":"R Programming",
+      "age":30
+    },
+    {
+      "name":"Khrystyne",
+      "course":"Financial Marketsw",
+      "age":19
+    }
+  ]
+}

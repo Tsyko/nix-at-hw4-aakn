@@ -12,12 +12,12 @@ public class DreamTeamAppTest {
     }
 
     @Test(groups = { "fast" })
-    public void aFastTest() {
+    public void fastTest() {
         System.out.println("Fast test");
     }
 
     @Test(groups = { "slow" })
-    public void aSlowTest() {
+    public void slowTest() {
         System.out.println("Slow test");
     }
 
