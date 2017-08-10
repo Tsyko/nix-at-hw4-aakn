@@ -30,5 +30,8 @@ public class StudentComparatorTest {
         list.sort(new StudentComparator());
 
         Assert.assertEquals(list, expected);
+        System.out.println(list);
+        System.out.println(expected);
+
     }
 }

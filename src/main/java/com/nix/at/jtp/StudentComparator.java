@@ -8,6 +8,14 @@ public class StudentComparator implements Comparator<Student> {
         // TODO: compare 2 students, return -1, 0 or 1
         // sort first by name, then by age, then by course
         // test StudentComparatorTest must not fail :)
-        return 0;
+
+        int n = first.getName().compareToIgnoreCase(second.getName());
+        if (n==0) {
+            n = first.getCourse().compareToIgnoreCase(second.getCourse());
+        }
+        if (n==0) {
+          n =  (first.getAge() < second.getAge()) ? -1 : ((first.getAge() == second.getAge()) ? 0 : 1);
+        }
+        return n;
     }
 }
